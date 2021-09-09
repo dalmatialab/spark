@@ -3,8 +3,8 @@
 
 # Supported tags and respective Dockerfile links
 
- - 2.4.8-rc-1
- - 2.4.8-rc-2
+ - [2.4.8-rc-1](https://github.com/dalmatialab/spark/blob/1d6e02fd861ff645034b60a5645a901da2834531/Dockerfile)
+ - [2.4.8-rc-2](https://github.com/dalmatialab/spark/blob/ae3cf989be3183cf1af31a1e0957fdb085db2ca2/Dockerfile)
 
 # What is Spark ? 
 
