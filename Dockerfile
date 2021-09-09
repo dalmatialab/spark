@@ -1,6 +1,11 @@
 FROM python:3.5.9-slim-stretch
 LABEL maintainer="dalmatialab"
 
+# Install tzdata and set right timezone
+ENV DEBIAN_FRONTEND="noninteractive"
+RUN apt update && apt-get -y install tzdata
+ENV TZ=Europe/Zagreb
+
 # Java installation
 RUN mkdir /usr/share/man/man1/
 RUN apt update && apt install -y openjdk-8-jre

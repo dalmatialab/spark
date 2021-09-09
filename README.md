@@ -4,6 +4,7 @@
 # Supported tags and respective Dockerfile links
 
  - 2.4.8-rc-1
+ - 2.4.8-rc-2
 
 # What is Spark ? 
 
@@ -43,6 +44,10 @@ This is *required* variable. It specifies starting script target. Possible value
 **SPARK_MASTER**
 
 This is *required* variable. It specifies Spark master endpoint at which worker will connect.
+
+**TZ**
+
+This is *optional* variable. It specifes timezone. Default value is `Europe/Zagreb`.
 
 ## Ports
 
